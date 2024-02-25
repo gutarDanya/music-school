@@ -1,0 +1,105 @@
+.popup {
+    display: flex;
+    min-width: 700px;
+    background-color: rgb(248, 235, 247);
+    min-height: 400px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.subHeader {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 30px 0 0;
+}
+
+.input {
+    border-radius: 7px;
+    height: 30px;
+    font-size: 21px;
+    margin-top: 25px;
+    border: 0;
+    border-bottom: 2px solid rgb(212, 212, 212);
+}
+
+.input:focus {
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid rgb(133, 133, 133);
+}
+
+.input:first-of-type {
+    margin-top: 40px;
+}
+
+.confirmBox {
+    margin: 10px auto 0 0;
+    display: flex;
+}
+
+.info {
+    color: black;
+    cursor: default;
+    font-size:14px;
+    margin-left: 8px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.switchText {
+    font-weight: 500;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 20px;
+    transition: color 200ms linear;
+}
+
+.switchText:hover {
+    color:rgb(127, 128, 224);
+}
+
+.submitButton {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 30px 0 0 0;
+    font-size: 21px;
+    line-height: 27px;
+    height: 30px;
+    width: calc(100% - 60px);
+    height: 32px;
+    transition: background-color 200ms linear;
+}
+
+.submitButton:hover {
+background-color: rgb(174, 205, 212);
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.shirmRegistration {
+    width:50%;
+    height: 100%;
+    position: absolute;
+    background-color: plum;
+    right: 0;
+    transition: all 400ms ease-in-out;
+    border-radius: 0px 30px 30px 0;
+}
+
+.shirmLogin {
+    width:50%;
+    height: 100%;
+    position: absolute;
+    background-color: #e66465;
+    right: 50%;
+    border-radius: 30px 0 0 30px;
+    transition: all 400ms ease-in-out;
+}
